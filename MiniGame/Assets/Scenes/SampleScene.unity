@@ -248,7 +248,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 172477037}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.51, y: -2.89, z: 0}
+  m_LocalPosition: {x: -4.03, y: -3.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -386,7 +386,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 184101752}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.22, y: -2.84, z: -5.098633}
+  m_LocalPosition: {x: 5.39, y: -2.89, z: -5.098633}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -406,8 +406,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   treeMap: {fileID: 0}
-  particle: {fileID: 1841994752712436984, guid: 6351aef0b46c1fb4094b3712e3be1616,
-    type: 3}
 --- !u!50 &184101757
 Rigidbody2D:
   serializedVersion: 4
