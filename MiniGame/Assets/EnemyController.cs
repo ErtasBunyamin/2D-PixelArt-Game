@@ -8,16 +8,17 @@ public class EnemyController : MonoBehaviour
     public float can;
     public float speed;
     internal Animator controller;
-    private bool isWalk;
+    private bool facingRight;
     private Vector2 currentPosition;
     private Rigidbody2D rigidbody;
+    private float h, v;
     // Start is called before the first frame update
     void Start()
     {
         currentPosition = transform.position;
-        isWalk = false; 
+        facingRight = false; 
         can = 100;
-        speed = 50;
+        speed = 5;
         rigidbody = GetComponent<Rigidbody2D>();
         controller = GetComponent<Animator>();
     }
@@ -29,37 +30,42 @@ public class EnemyController : MonoBehaviour
         {
             attack();
         }
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            speed *= -1;
-            walk(true);
-        }else if (Input.GetKeyUp(KeyCode.A))
-        {
-            walk(false);
-        }
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            speed *= -1;
-            walk(true);
-        }
-        else if (Input.GetKeyUp(KeyCode.D))
-        {
-            walk(false);
-        }
+        h = Input.GetAxis("Horizontal");
+        v = Input.GetAxis("Vertical");
     }
     private void FixedUpdate()
     {
-        if(isWalk)
+        if(h != 0)
         {
-            rigidbody.velocity = new Vector2(speed * Time.deltaTime, rigidbody.velocity.y);
+            walk();
+        }
+        else
+        {
+            unWalk();
         }
     }
 
 
-    private void walk(bool state)
+    private void walk()
     {
-        isWalk = state;
-        controller.SetBool("Walk", state);
+        flip(h);
+        controller.SetBool("Walk", true);
+        rigidbody.velocity = new Vector2(h * speed, 0);
+    }
+    private void unWalk()
+    {
+        controller.SetBool("Walk", false);
+    }
+
+    private void flip(float h)
+    {
+        if (h > 0 && !facingRight || h < 0 && facingRight)
+        {
+            facingRight = !facingRight;
+            Vector2 theScale = transform.localScale;
+            theScale.x *= -1;
+            transform.localScale = theScale;
+        }
     }
 
     private void attack()

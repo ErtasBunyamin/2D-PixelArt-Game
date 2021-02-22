@@ -1,7 +1,49 @@
 fileFormatVersion: 2
 guid: b95b20a2ab27c1045a5cd40dbbf47eca
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1575178575165340752
+    second: Big_bloated_attack1_0
+  - first:
+      213: 5724669923096345686
+    second: Big_bloated_attack1_1
+  - first:
+      213: 6868210877141530874
+    second: Big_bloated_attack1_2
+  - first:
+      213: 8946041136900448764
+    second: Big_bloated_attack1_3
+  - first:
+      213: 4227453507427601749
+    second: Big_bloated_attack1_4
+  - first:
+      213: 6843956989171779691
+    second: Big_bloated_attack1_5
+  - first:
+      213: -4653784334689298103
+    second: Big_bloated_attack1_6
+  - first:
+      213: 3305125572658592271
+    second: Big_bloated_attack1_0
+  - first:
+      213: -5018269958036347719
+    second: Big_bloated_attack1_1
+  - first:
+      213: -876081008813373305
+    second: Big_bloated_attack1_2
+  - first:
+      213: -7051045615966795648
+    second: Big_bloated_attack1_3
+  - first:
+      213: 515064309008312931
+    second: Big_bloated_attack1_4
+  - first:
+      213: -6524592353249489118
+    second: Big_bloated_attack1_5
+  - first:
+      213: 8752138660114219413
+    second: Big_bloated_attack1_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,12 +82,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 18
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -71,9 +113,159 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Big_bloated_attack1_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 46
+        height: 48
+      alignment: 9
+      pivot: {x: 0.50224817, y: 0.51591617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0aff50723a2edd20800000000000000
+      internalID: 3305125572658592271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big_bloated_attack1_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 45
+        height: 48
+      alignment: 9
+      pivot: {x: 0.510014, y: 0.52318764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4aa34af068b5ab0800000000000000
+      internalID: -5018269958036347719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big_bloated_attack1_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.7925469, y: 0.52055377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7888633d6f887d3f0800000000000000
+      internalID: -876081008813373305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big_bloated_attack1_4
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 0
+        width: 47
+        height: 48
+      alignment: 9
+      pivot: {x: 0.76512825, y: 0.5211839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a2ce69240e52700800000000000000
+      internalID: 515064309008312931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big_bloated_attack1_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 0
+        width: 51
+        height: 48
+      alignment: 9
+      pivot: {x: 0.82907045, y: 0.5172279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f8550d2ddf375a0800000000000000
+      internalID: -6524592353249489118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big_bloated_attack1_6
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 0
+        width: 32
+        height: 48
+      alignment: 9
+      pivot: {x: 0.7377262, y: 0.5198105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59142159db7d57970800000000000000
+      internalID: 8752138660114219413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
